@@ -26,7 +26,7 @@ The notebook runs in Google Colab or any local Jupyter env.
 
 ---
 
-### Additional Input Data
+### Obligatory Input Data
 The notebook expects a CSV file containing the following columns:
 
 first_timestamp_ms
@@ -50,7 +50,7 @@ Option 2 – Run locally
 jupyter notebook data_analizer_final.ipynb
 Then open the notebook in your browser and run the cells step-by-step.
 
-Notebook Structure
+### Notebook Structure
 Section	Description
 1	Project description
 2	Imports
