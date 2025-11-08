@@ -1,0 +1,18 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pip:
+    # add pip-only packages here
+    - fastapi
+    - uvicorn
