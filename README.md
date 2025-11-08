@@ -1,4 +1,4 @@
-# PoMiASI Project – HTTP Log Analyzer (Jupyter)
+# PoMiASI Project – HTTP Data Analyzer (Jupyter)
 
 This repository contains a Jupyter notebook that analyzes HTTP request/response logs exported to CSV format.  
 Each record represents a single HTTP request and its corresponding response.
