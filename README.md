@@ -64,3 +64,30 @@ Section	Description
 
 ---
 
+
+## Docker Compose
+
+Builds the project's Docker image and runs Jupyter Lab inside the conda environment defined in `environment.yml`.
+
+Run (Docker Compose v2):
+
+```bash
+docker compose up --build
+```
+
+Or if you have Docker Compose v1 (with hyphen):
+
+```bash
+docker-compose up --build
+```
+
+After the container starts, open http://localhost:8888 in your browser. Jupyter is started without a token for local convenience; if you want a token, remove the `--NotebookApp.token=''` flag in `docker-compose.yml`.
+
+To stop and remove containers:
+
+```bash
+docker compose down
+# or for v1:
+docker-compose down
+```
+
