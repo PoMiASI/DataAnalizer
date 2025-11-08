@@ -24,17 +24,22 @@ It includes:
 
 The notebook runs in Google Colab or any local Jupyter env.
 
-### Dependencies
-```bash
-pip install pandas matplotlib seaborn
-All required libraries are preinstalled in Google Colab.
+---
 
-Input Data
+### Additional Input Data
 The notebook expects a CSV file containing the following columns:
 
+first_timestamp_ms
+last_timestamp_ms
+duration_ms
+total_bytes
+request_uri
+client_port
+request_user_agent	
 
+---
 
-Usage
+### Usage
 Option 1 – Run in Google Colab
 Go to Google Colab
 
@@ -57,4 +62,5 @@ Section	Description
 8	Time gaps between downloads
 9	Gantt chart
 
+---
 
