@@ -3,7 +3,18 @@
 This repository contains a Jupyter notebook that analyzes HTTP request/response logs exported to CSV format.  
 Each record represents a single HTTP request and its corresponding response.
 
----
+-------------------------------------------------------------------------------------------------------------
+### Changelog V2
+- Added trimming of the two shortest downloads per browser × attempt.
+- Added detailed download time statistics (mean, median, min, max).
+- Added percentage distribution of concurrent downloads.
+- Added full statistics for time gaps (mean, median, min, max).
+- Added "Active downloads over time" chart (=1st packet, up to 25 s).
+- Reworked Gantt chart: grouped by client_port, showing execution order.
+- Added cross-browser comparison summary.
+- Introduced support for multiple attempts (runs) via `attempt` column.
+- Removed Seaborn — all plots now use clean Matplotlib.
+- Notebook organized into clear, logical cells and formatted for Colab.
 
 ## Features
 
