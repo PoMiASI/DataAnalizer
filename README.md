@@ -14,7 +14,6 @@ Each record represents a single HTTP request and its corresponding response.
 - Added cross-browser comparison summary.
 - Introduced support for multiple attempts (runs) via `attempt` column.
 - Removed Seaborn — all plots now use clean Matplotlib.
-- Notebook organized into clear, logical cells and formatted for Colab.
 
 ## Features
 
