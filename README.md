@@ -4,6 +4,15 @@ This repository contains a Jupyter notebook that analyzes HTTP request/response 
 Each record represents a single HTTP request and its corresponding response.
 
 -------------------------------------------------------------------------------------------------------------
+### Changelog V3
+- Added handling and sanity check for completion_procent; core timing analyses use only rows with 100%.
+- Added derived columns: size_kb, duration_s, speed_kb_per_s.
+- Improved browser detection (Chrome, Edge, Opera, Firefox, Safari, Brave, Other).
+- Updated "Active downloads over time" to per-browser subplots (stacked vertically).
+- Reworked "Download time per object" into per-browser boxplot (no mixed URIs).
+- Changed cross-browser comparison chart to a boxplot (objects >= 1 MB).
+- Cleaned up labels and comments.
+  
 ### Changelog V2
 - Added trimming of the two shortest downloads per browser × attempt.
 - Added detailed download time statistics (mean, median, min, max).
